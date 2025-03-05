@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const MongoClient = require('mongodb').MongoClient;
-const url = 'mongodb+srv://poosd-largeproj.hhikq.mongodb.net/" --apiVersion 1 --username chandhigginsakhtar';
+const url = 'mongodb+srv://chandhigginsakhtar:POOSD-26@poosd-largeproj.hhikq.mongodb.net/myDatabase?retryWrites=true&w=majority';
 const client = new MongoClient(url);
 client.connect();
 
